@@ -41,11 +41,8 @@ class minhaClasse {
                 else
                 {
                     Console.WriteLine("nota invalida");
-                }
-                
+                }                
             }
             Console.WriteLine("media = {0:0.00}", ( soma  /2)); //insira a variavel correta
-
     }
-
 }
