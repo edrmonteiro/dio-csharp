@@ -15,7 +15,7 @@ namespace Vaquinha.AutomatedUITests
         {
             // Inicializa o browser utilizando o ChromeDriver que está no caminho /usr/share/applications/
             //ChromeDriverService service = ChromeDriverService.CreateDefaultService("/usr/share/applications/");
-            FirefoxDriverService service = FirefoxDriverService.CreateDefaultService("/usr/share/applications/");
+            FirefoxDriverService service = FirefoxDriverService.CreateDefaultService("C:\\Codes\\Geckodriver");
             
             // Faz criação de porta para abrir o browser.
             service.Port = new Random().Next(64000, 64800);
@@ -33,7 +33,7 @@ namespace Vaquinha.AutomatedUITests
             CodePagesEncodingProvider.Instance.GetEncoding(437);
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             FirefoxOptions options = new FirefoxOptions();
-            options.AddArgument("-headless");
+            //options.AddArgument("-headless");
             options.AddArgument("-safe-mode");
             options.AddArgument("-ignore-certificate-errors");
             FirefoxProfile profile = new FirefoxProfile();
