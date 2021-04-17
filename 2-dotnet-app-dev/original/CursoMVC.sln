@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoMVC", "CursoMVC\CursoM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoAPI", "CursoAPI\CursoAPI.csproj", "{8008AC7C-FC09-4BB1-9454-F068A530C1FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoTest", "CursoTest\CursoTest.csproj", "{2B36A5F0-BE3D-4E30-9AF1-826B513EAAE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoTest", "CursoTest\CursoTest.csproj", "{2B36A5F0-BE3D-4E30-9AF1-826B513EAAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
